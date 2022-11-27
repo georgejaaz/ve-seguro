@@ -1,12 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=Walter+Turncoat&display=swap');
 
 
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Walter Turncoat', cursive;
+    color: rgb(230, 225, 143); 
+    text-shadow: 0.02em 0.02em rgb(209, 204, 204);
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+}
+
+.extremosPrincipal{
+    padding-top: 5em;
+}
+
+.imagenPrincipal{
+    width: 60em;
+    height: 35em;
+    display:block;
+    margin:auto;
+}
+
+.cajita{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: 0.1em solid #474948;
+    border-radius: 0.5em;
+    margin: 2em 1em;
+    padding: 1em;
+    position: relative;
+}
+
+#seccionPrincipal{
+    text-align:center;
+    margin-top: 2em;
+}
+
+.imagenSePrin{
+    width: 6em;
+    height: 5.6em;
+}
+
+#menu{
+	display: flex;
+	justify-content: right;
+    font-size: 17px;
+}
+
+ul{
+    display: flex;
+	padding-right: 2em;
+    list-style: none;
+    
+}
+
+li {
+    margin-left: 30px;
+}
+
+#listaIzq{
+    list-style: none;
+}
+
+
+.imgbeb{
+    width: 15em;
+}
+
+.mitadPag li{
+    display:block;
+    margin:auto;
 }
 
 .logo{
     width: 3.8em;
     height: 2.6em;
+    
+}
+
+audio{
+    display: flex;
+    margin-left: 58em;
+    margin-bottom: 2em;
+}
+
+
+#ingredientesPrincipal a{
+    padding-right: 90px;
+    text-transform: uppercase;
+}
+
+#ingredientesPrincipal{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#acercaDelTe{
+    text-align: center;
+}
+
+#redesSociales{
+    text-align: center;
+    padding-top: 2em;
+}
+
+footer{
+    text-align: center;
+}
+
+.centroGral img{
+    width: 16em;
+    padding-top: 5em;
+}
+
+.centroGral p{
+    font-size:xx-large;
+}
+
+
+.botonRegresa{
+    width: 3em;
+    display:block;
+    margin:auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+
+.centroGral{
+    text-align: center;
+    padding-top: 3em;
 }

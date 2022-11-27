@@ -9,74 +9,90 @@
 </head>
 <body>
     <header>
-        <div>
-            <img class="logo" src="/imagenes/teopia.png"  alt="logo">
-        </div>
-        
-        <h1>EPÍLOGO</h1>
-        <nav>
+        <img class="logo" src="/imagenes/teopia.png"  alt="logo">
+        <nav id="menu">
             <ul>
                 <li><a href="/te.html">Tés</a></li>
                 <li><a href="/tisana.html">Tisanas</a></li>
                 <li><a href="/accesorios.html">Accesorios</a></li>
                 <li><a href="/nosotros.html">Nosotros</a></li>
                 <li><a href="/usuario.html"><img src="/imagenes/usuariologo.svg" alt=""></a></li>
-
             </ul>
         </nav>
     </header>
     <main>
+        <h1 id="nombreMarca">EPÍLOGO</h1>
         <div>  
             <audio src="/musica/Requiem.mp3" autoplay controls loop></audio>  
-            <img src="https://static.diariovasco.com/www/multimedia/202110/14/media/cortadas/tes-RewefKpXDMrussyr5rfjTZO-1248x770@Diario%20Vasco.jpg" alt="carrousel2"> 
+            <img class="imagenPrincipal" src="https://static.diariovasco.com/www/multimedia/202110/14/media/cortadas/tes-RewefKpXDMrussyr5rfjTZO-1248x770@Diario%20Vasco.jpg" alt="carrousel2"> 
         </div>
-        <section>
+        <section id="seccionPrincipal" class="cajita">
             <h2>EXPLORA POR INGREDIENTES</h2>
-            <div>
-                <img src="/imagenes/frutas.avif" alt="frutas">
-                <p><a href="/frutas.html">Frutas</a></p>
-                <img src="/imagenes/flores.avif" alt="flores">
-                <p><a href="/flores.html">Flores</a></p>
-                <img src="/imagenes/hierbasEspecias.avif" alt="hierbasEspecias">
-                <p><a href="/hierbasEspecias.html">Hierbas y especias</a></p>
-                <img src="/imagenes/semillasVegetales.avif" alt="semillasVegetales">
-                <p><a href="/semillasVegetal.html">Semillas y vegetales</a></p>
-                <img src="/imagenes/nuecesDulces.avif" alt="nuecesDulces">
-                <p><a href="/nuecesdulces.html">Nueces y dulces</a></p>
-            </div>
+            <ul id="ingredientesPrincipal">
+                <a href="/frutas.html">
+                    <li>
+                        <img src="/imagenes/frutas.avif" alt="frutas">
+                        <h4>Frutas</h4>
+                    </li>
+                </a>    
+                <a href="/flores.html">
+                    <li>
+                        <img src="/imagenes/flores.avif" alt="flores">
+                        <h4>Flores</h4>
+                    </li>
+                </a> 
+                <a href="/hierbasEspecias.html">
+                    <li>
+                        <img src="/imagenes/hierbasEspecias.avif" alt="hierbasEspecias">
+                        <h3>Hierbas y especias</h3>
+                    </li>
+                </a> 
+                <a href="/semillasVegetal.html">
+                    <li>
+                        <img src="/imagenes/semillasVegetales.avif" alt="semillasVegetales">
+                        <h4>Semillas y Vegetales</h4>
+                    </li>
+                </a> 
+                <a href="/nuecesdulces.html">
+                    <li>
+                        <img src="/imagenes/nuecesDulces.avif" alt="nuecesDulces">
+                        <h4>Nueces y Dulces</h4>
+                    </li>
+                </a> 
+            </ul>  
         </section>
-        <aside>
-            <ol>
-                <h3>NUESTRA RECOMENDACIÓN</h3>
-                <img src="/imagenes/pumpkinMalasa.webp" alt="pumpkinMalasa">
+        <aside class="extremosPrincipal">
+            <h3>NUESTRA RECOMENDACIÓN</h3>
+            <ol id="listaIzq" class="cajita">
+                <img class="imgbeb" src="/imagenes/pumpkinMalasa.webp" alt="pumpkinMalasa">
                 <li><a href="">PUMPKIN MASALA</a></li>
-                <img src="/imagenes/neblinaPurpura.webp" alt="neblinaPurpura">
+                <img class="imgbeb" src="/imagenes/neblinaPurpura.webp" alt="neblinaPurpura">
                 <li><a href="">NEBLINA PÚRPURA</a></li>
-                <img src="/imagenes/dulceChai.webp" alt="dulceChai">
+                <img class="imgbeb" src="/imagenes/dulceChai.webp" alt="dulceChai">
                 <li><a href="">DULCE CHAI</a></li>
             </ol>
         </aside>
-        <div>
+        <div class="mitadPag">
             <ul>
                 <li><a href="">RECETAS DEL MES</a></li>
                 <li><a href="">NOTICIAS</a></li>
                 <li><a href="">APRENDE ACERCA DEL TÉ</a></li>
             </ul>
         </div>
-        <aside>
-            <ol>
-                <h3>DE TEMPORADA</h3>
-                <img src="/imagenes/poncheNavidad.webp" alt="poncheNavidad">
+        <aside class="extremosPrincipal">
+            <h3>DE TEMPORADA</h3>
+            <ul class="cajita">
+                <img class="imgbeb" src="/imagenes/poncheNavidad.webp" alt="poncheNavidad">
                 <li><a href="">PONCHE NAVIDEÑO</a></li>
-                <img src="/imagenes/rompope.webp" alt="rompope">
+                <img class="imgbeb" src="/imagenes/rompope.webp" alt="rompope">
                 <li><a href="">ROMPOPE</a></li>
-                <img src="/imagenes/chaiNavidad.webp" alt="poncheNavidad">
+                <img class="imgbeb" src="/imagenes/chaiNavidad.webp" alt="poncheNavidad">
                 <li><a href="">CHAI NAVIDEÑO</a></li>
-            </ol>
+            </ul>
         </aside>
     </main>
     <footer>
-        <div>
+        <div id="acercaDelTe">
             <h4>ACERCA DEL TÉ</h4>
             <p>Maecenas sollicitudin lacus egestas urna rhoncus pulvinar. Nulla gravida dui sed nibh eleifend, vel congue massa cursus. </p>
         </div>
@@ -87,7 +103,7 @@
             <img src="/imagenes/youtube.svg" alt="youtubeLogo">
             <img src="/imagenes/twitter.svg" alt="twitterLogo">
         </div>
-        <div>
+        <div id="infoYpromos">
             <h4>RECIBE INFORMACIÓN Y PROMOCIONES</h4>
             <form action="">
                 <input type="email" placeholder="correo@amoelte.com" name="Correo electronico" id="">
