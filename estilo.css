@@ -22,7 +22,15 @@ h1{
 
 }
 
+.texto{
+    text-align: center;
+}
+
 h3{
+    text-align: center;
+}
+
+#eslogan{
     text-align: center;
 }
 
